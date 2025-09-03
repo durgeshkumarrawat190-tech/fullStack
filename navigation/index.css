@@ -1,0 +1,49 @@
+
+
+.navbar{
+    margin: auto;
+    background-color: black;
+    width: 1200px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+li{
+    list-style-type: none;
+    color: #fff;
+}
+
+.home{
+    background-color: #686363;
+}
+
+.sear{
+    color: #fff;
+    display: flex;
+    width: 200px;
+    height: 50px;
+    justify-content: flex-end;
+}
+
+.search{
+    width: 100px;
+    height: 30px;
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    border-radius: 5%;
+}
+
+span{
+    padding-right: 20px;
+}
